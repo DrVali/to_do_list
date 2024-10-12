@@ -1,0 +1,88 @@
+﻿
+html{
+  font-size: 62.5%;
+}
+
+body{
+	direction: rtl;
+	
+	font-size: 1rem;
+}
+li{
+	list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.div_enterText{
+  padding: 15px;
+  background-color: aquamarine;
+
+}
+.txtInput{
+  width: 99%;
+  height: 10rem;
+  margin: 5px;
+  font-size: 1.5rem;
+  padding: 5px;
+}
+.subject{
+  width: 99%;
+  height: 3rem;
+  margin: 5px;
+  font-size: 1.5rem;
+  padding: 5px;
+}
+.btnSave{
+  width: 100%;
+  padding: 5px;
+  font-size: 2rem;
+  margin: 5px;
+  background-color: cadetblue;
+  font-weight: bolder;
+  border-radius: 5px;;
+  
+}
+.btnSave:hover{
+  background-color: #325b5c;
+}
+
+.inputList {
+  background-color: cornflowerblue;
+ height: 100vh;
+ padding: 10px;
+}
+ .li_list{
+  background-color:aliceblue;
+  width: 98%;
+  padding: 5px;
+  margin: 5px;
+  font-size: 2rem;
+  border-radius: 8px;
+  
+}
+ .spanClass{
+margin: 10px;
+font-weight: bolder;
+background-color: gray;
+display: block;
+padding:15px;
+
+border-radius: 5px 5px 0 0;
+
+}
+ .pClass{
+ line-height: 3.5rem;
+ padding: 8px 20px;
+    margin: -11px 1rem 2rem 1rem;
+    border: 1px solid gray;
+}
+.btnDel{
+float: left;
+    padding: 10px;
+    font-size: 2rem;
+    margin: -40px 3px;
+    background: #e95d46;
+    border-radius: 5px;
+	
+}
