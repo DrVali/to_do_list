@@ -42,7 +42,16 @@ window.onload =function (){
 		  alert("لطفا هر دو قسمت را تکمیل و سپس مجدد تست کنید.");
 	
   });
-	
+   
+   
+   let insertBtn= document.querySelector(".div_enterText");;
+  const clearBtn=document.createElement('Button');
+	clearBtn.textContent= "حذف تمام لیست";
+	 clearBtn.classList.add("btnSave");
+	 insertBtn.append(clearBtn);
+	 clearBtn.onclick= function(){
+		 userList.remove();
+	 }
 }
 
 function changeColor(){
